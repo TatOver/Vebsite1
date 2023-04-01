@@ -19,5 +19,5 @@ def create(request):
     context={
         'form': form
     }
-    return render(request,'main/create.html')
+    return render(request,'main/create.html', context)
 
